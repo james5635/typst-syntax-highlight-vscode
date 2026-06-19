@@ -3,6 +3,7 @@
   "displayName": "typst-syntax-highlight",
   "description": "typst syntax highlight for vscode",
   "version": "0.0.1",
+  "publisher": "james5635",
   "engines": {
     "vscode": "^1.0.0"
   },

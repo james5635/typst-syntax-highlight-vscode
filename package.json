@@ -1,0 +1,35 @@
+{
+  "name": "typst-syntax-highlight",
+  "displayName": "typst-syntax-highlight",
+  "description": "typst syntax highlight for vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "typst",
+        "aliases": [
+          "Typst",
+          "typst"
+        ],
+        "extensions": [
+          ".typ"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "typst",
+        "scopeName": "source.typst",
+        "path": "./syntaxes/typst.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {}
+}
